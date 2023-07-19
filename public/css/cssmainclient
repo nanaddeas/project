@@ -1,0 +1,38 @@
+.navbar.navbar-gradient {
+  background: linear-gradient(to right, #00cc00, #00ff99);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+ }
+  
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+  
+nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+  
+    nav li a:hover {
+    color: #000;
+}
+
+.navbar-brand {
+    background-color: transparent;
+    padding: 0; /* Remove any padding around the image and text */
+  }
+  
+  .navbar-brand img {
+    display: inline-block; /* Ensure the image and text are displayed in a line */
+    vertical-align: middle; /* Vertically align the image and text */
+    max-height: 40px; /* Set the maximum height of the image to your desired size */
+    margin-right: 10px; /* Add some margin between the image and text */
+  }
+  
